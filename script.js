@@ -18,6 +18,13 @@ app.appendChild(header);
 const main = document.createElement('main');
 const section = document.createElement('section');
 
+section.style.backgroundImage = "url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=600')"
+section.style.backgroundSize = "cover";
+section.style.backgroundPosition = "center";
+section.style.backgroundRepeat = "no-repeat";
+section.style.padding = "100px";
+section.style.color = "white";
+
 const heading = document.createElement('h2');
 heading.textContent = 'Welcome!';
 section.appendChild(heading);
